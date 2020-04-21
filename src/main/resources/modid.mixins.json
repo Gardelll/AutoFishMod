@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "top.gardel.mc.autofish.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "FishMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

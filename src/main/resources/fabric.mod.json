@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "autofish",
+  "version": "${version}",
+
+  "name": "AutoFish",
+  "description": "钓鱼到世界灭亡(只要还有耐久)",
+  "authors": [
+    "Gardel_"
+  ],
+  "contact": {
+    "homepage": "https://gardel.top/xxx",
+    "sources": "https://github.com/还没上传.jpg"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/autofish/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.gardel.mc.autofish.AutoFishMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
